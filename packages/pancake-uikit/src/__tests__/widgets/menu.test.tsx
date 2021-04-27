@@ -70,7 +70,7 @@ it("renders correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #8f80ba;
+      fill: #2b5bab;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -355,7 +355,7 @@ it("renders correctly", () => {
       padding: 0 16px;
       font-size: 16px;
       background-color: transparent;
-      color: #8f80ba;
+      color: #2b5bab;
       box-shadow: inset 4px 0px 0px #1FC7D4;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
@@ -376,7 +376,7 @@ it("renders correctly", () => {
     }
 
     .c12 svg {
-      fill: #8f80ba;
+      fill: #2b5bab;
     }
 
     .c12:hover {
@@ -405,7 +405,7 @@ it("renders correctly", () => {
       padding: 0 16px;
       font-size: 16px;
       background-color: transparent;
-      color: #8f80ba;
+      color: #2b5bab;
       box-shadow: none;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
@@ -426,7 +426,7 @@ it("renders correctly", () => {
     }
 
     .c16 svg {
-      fill: #8f80ba;
+      fill: #2b5bab;
     }
 
     .c16:hover {

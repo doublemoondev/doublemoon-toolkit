@@ -52,27 +52,31 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoIcon className="mobile-icon" />
-      <LogoWithText className="desktop-icon" isDark={isDark} />
+      <LogoIcon style={{ width: "40px" }} />
+      {/* <LogoWithText className="desktop-icon" isDark={isDark} /> */}
     </>
+  );
+
+  const logoText = 'DOUBLE MOON'
+  const innerText = (
+    <span style={{
+      color: "white",
+      fontSize: "24px",
+      marginLeft: "10px",
+    }}>{ logoText }</span>
   );
 
   return (
     <Flex>
-      <MenuButton aria-label="Toggle menu" onClick={togglePush} mr="24px">
-        {isPushed ? (
-          <HamburgerCloseIcon width="24px" color="textSubtle" />
-        ) : (
-          <HamburgerIcon width="24px" color="textSubtle" />
-        )}
-      </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Pancake home page">
+        <StyledLink as="a" href={href} aria-label="DoubleMoon home page">
           {innerLogo}
+          {innerText}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Pancake home page">
+        <StyledLink to={href} aria-label="DoubleMoon home page">
           {innerLogo}
+          {innerText}
         </StyledLink>
       )}
     </Flex>

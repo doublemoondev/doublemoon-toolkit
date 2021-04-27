@@ -23,19 +23,19 @@ it("renders correctly", () => {
     }
 
     .c0::-webkit-input-placeholder {
-      color: #8f80ba;
+      color: #2b5bab;
     }
 
     .c0::-moz-placeholder {
-      color: #8f80ba;
+      color: #2b5bab;
     }
 
     .c0:-ms-input-placeholder {
-      color: #8f80ba;
+      color: #2b5bab;
     }
 
     .c0::placeholder {
-      color: #8f80ba;
+      color: #2b5bab;
     }
 
     .c0:disabled {

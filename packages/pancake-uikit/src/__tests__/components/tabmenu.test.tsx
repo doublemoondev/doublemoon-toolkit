@@ -25,7 +25,7 @@ it("renders correctly", () => {
     }
 
     .c2 {
-      border-bottom: 2px solid #8f80ba;
+      border-bottom: 2px solid #2b5bab;
       overflow-x: scroll;
       -ms-overflow-style: none;
       -webkit-scrollbar-width: none;
@@ -72,7 +72,7 @@ it("renders correctly", () => {
       padding: 8px;
       border-radius: 16px 16px 0 0;
       color: #FFFFFF;
-      background-color: #8f80ba;
+      background-color: #2b5bab;
     }
 
     .c6 {
@@ -93,7 +93,7 @@ it("renders correctly", () => {
       flex-grow: 1;
       padding: 8px;
       border-radius: 16px 16px 0 0;
-      color: #8f80ba;
+      color: #2b5bab;
       background-color: #eeeaf4;
     }
 
@@ -106,7 +106,7 @@ it("renders correctly", () => {
     }
 
     .c7 {
-      color: #8f80ba;
+      color: #2b5bab;
       font-size: 16px;
       font-weight: 400;
       line-height: 1.5;
